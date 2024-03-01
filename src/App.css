@@ -1,10 +1,11 @@
 .App {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start; /* Align items to the start (left) of the container */
+  justify-content: flex-start; /* Align content to the start (top) of the container */
   height: 100vh;
   font-family: Arial, sans-serif;
+  padding: 20px; /* Add padding to create space between content and edges */
 }
 
 h1 {
