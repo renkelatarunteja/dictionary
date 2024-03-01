@@ -24,13 +24,13 @@ function XDictionary() {
       <h1>Dictionary App</h1>
       <input
         type="text"
-        placeholder="Enter search term"
+        placeholder="Search for a word..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <button onClick={handleSearch}>Search</button>
       <div>
-        Definition:{meaning && <p>{meaning}</p>}
+        Definition:<p>{meaning}</p>
       </div>
     </div>
   );
